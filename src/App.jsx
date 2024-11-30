@@ -22,6 +22,7 @@ export const availableIngredients = [
 ];
 
 const App = () => {
+  const [stack, setStack] = useState([])
   return (
     <main>
       <h1>Burger Stacker</h1>
